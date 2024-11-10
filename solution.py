@@ -26,10 +26,10 @@ for student in students_table:
     #    for student in students_dict[grade][language]:
      #       print("       ", student)
 
-with open("gay.sex", "wb") as file:
+with open("totalynormal.file", "wb") as file:
     pickle.dump(students_dict, file)
 
-with open("gay.sex", "rb") as data:
+with open("totalynormal.file", "rb") as data:
     interesting_data = pickle.load(data)
 
 for grade in interesting_data:
